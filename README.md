@@ -67,10 +67,9 @@ task-manager-api
 ├── models.py
 ├── rate_limiter.py
 └── schemas.py
-```
-
 
 ---
+```
 
 ## Architecture Overview
 
