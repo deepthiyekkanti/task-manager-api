@@ -1,3 +1,4 @@
+```markdown
 # Task Manager API
 
 A production-style REST API built using **FastAPI** that supports authentication, secure task management, and modern backend architecture practices.
@@ -6,8 +7,7 @@ This project demonstrates how to design a clean backend service with authenticat
 
 ---
 
-# Features
-
+## Features
 - JWT Authentication
 - Refresh Token Rotation
 - Secure Password Hashing (bcrypt)
@@ -38,21 +38,22 @@ This project demonstrates how to design a clean backend service with authenticat
 
 The project follows a layered architecture separating routing, business logic, and data models to keep the code maintainable and scalable.
 
+```text
 task-manager-api
 │
 ├── auth
-│ ├── deps.py
-│ ├── jwt_handler.py
-│ └── security.py
+│   ├── deps.py
+│   ├── jwt_handler.py
+│   └── security.py
 │
 ├── routers
-│ ├── auth.py
-│ └── tasks.py
+│   ├── auth.py
+│   └── tasks.py
 │
 ├── services
-│ ├── auth_service.py
-│ ├── task_service.py
-│ └── user_service.py
+│   ├── auth_service.py
+│   ├── task_service.py
+│   └── user_service.py
 │
 ├── config.py
 ├── database.py
@@ -60,7 +61,6 @@ task-manager-api
 ├── models.py
 ├── rate_limiter.py
 └── schemas.py
-
 
 ---
 
@@ -75,9 +75,10 @@ task-manager-api
 
 ---
 
-# Run the Project Locally
+### Run the Project
 
 ### Clone the repository
+```bash
 git clone https://github.com/deepthiyekkanti/task-manager-api.git
 
 
