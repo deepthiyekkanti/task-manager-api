@@ -3,7 +3,6 @@
 A production-style REST API built with **FastAPI and PostgreSQL** that demonstrates modern backend engineering practices including **JWT authentication, refresh token rotation, rate limiting, and layered architecture**.
 
 The project focuses on building a **secure, scalable backend service** with authentication, task management, pagination, filtering, and clean separation of business logic.
-```
 
 ---
 
