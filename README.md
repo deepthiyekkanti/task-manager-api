@@ -69,6 +69,7 @@ task-manager-api
 └── schemas.py
 ```
 
+
 ---
 
 ## Architecture Overview
